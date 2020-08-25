@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+}
+
+
+div.maincontent{
+    height: 680px;
+    background-image: url("images/adham.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+div.navbar{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(0,0,0,0.6);
+}
+div.navbar a{
+    color: white;
+    margin: 20;
+}
+div.navbar a.join{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+div.details {
+    text-align:center;
+    padding-top: 150px;
+    color: white;
+}
+div.details button{
+  padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: darkturquoise;
+}
+*{
+    font-family: arial;
+}
+div.maingames{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    margin: auto;
+    color: white;
+background-color: black;
+padding: 50px;        
+}
+div.maingames{
+    display: flex;
+    justify-content: center;
+    width: 45%; 
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+div.maingames button{
+        border-radius: 8px;
+    border: 2px solid white;
+    background-color: aqua;
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+}
+div.maingames{
+    margin-right: -100p;
+    border-radius: 50px;
+}
+div.games{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+div.upcoming h1{
+text-align: center;
+}
+div.games div.img{
+  width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background: black;
+    background-image: url("images/pubg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+div.games2 div.img{
+   background-image: url("images/gta%20(1).jpg");     
+ 
+}
+div.games3 div.img{
+   background-image: url("images/pes2020.jpg"); 
+}
+div.games4 div.img{
+   background-image: url("images/supermario%20(1).jpg");
+}
+div.posts {
+display: flex;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+}
+div.post{
+    margin: 25px;
+background-color: black;
+}
+}
+div.post h3,div.post p,div.post h5{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+post p{
+    font-size: 15px;
+}
+p,div.post h5{
+    display: inline-block;
+}
+div.postcontent h1,post p{
+    text-align: center;
+} 
+,div.post p{
+font-size: 15px;
+    text-align: left;
+}
+
+div.post1 div.img ,div.post2 div.img, div.post3  div.img {   
+    height: 150px;
+     background-image: url("images/post1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.post2 div.img{
+ background-image: url("images/post2.jpg");
+}
+div.post3 div.img{
+    background-image: url("images/post3.jpg"); 
+}
+
+div.testis{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.testi{
+    margin: 20px;
+    text-align: center;
+background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url("images/boy.jpeg");
+    background-size: cover;
+    background-position: center;
+    border:1px solid black;
+}
+div.test h1{
+text-align: center;
+    margin-bottom: 80px
+
+}
+div.posts{
+display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.post{
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.post 1 div.img, div.post 2 div.img, div.post 3 div.img{
+    background-image: url("images/post1.jpg");
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+     border-radius: 8px;
+}
+div.post h3 ,div.post p, div.post h5{
+padding-right: 10px;
+ padding-left: 10px;   
+}
+div.post p{
+    font-size: 15px;
+}
+div.postcontent h1 ,div.postcontent p{
+    text-align: center;
+}
+div.post p{
+    font-size:15;
+    text-align: left;
+}
+div.post 2.div.img{
+  background-image: url("images/post2.jpg");  
+}
+
+div.post 3.div.img{
+  background-image: url("images/post3.jpg");  
+}
+.pricing h2{
+text-align: center;
+}
+.prices{
+    display: flex;
+justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center; 
+}
+
+
+.price{
+width:30%;
+    background-color: darkcyan;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+.price button{
+padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.planprice{
+background-color: darkblue;
+    padding: 15;
+}
+.planprice h3{
+margin: 0px;
+}
+.joinform{
+display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+     padding: 15px;  
+    margin-top: 50px;
+    border: 1px solid black; 
+}
+.joinform .image{
+    width: 35%; 
+}
+joinform.form{
+    width: 65%;
+}
+    
+
+.joinform .image{
+    background-image: url("images/fansty1.jpeg");
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+form input, form button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+    margin: auto;
+    
+}
+form button{
+    background-color: blue;
+    color: white;
+}
+div.joinnavbar{
+    background-color: black;
+}
+.footer{
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
